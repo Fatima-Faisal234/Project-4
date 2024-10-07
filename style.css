@@ -1,0 +1,55 @@
+/* Default Light Mode */
+body {
+  background-color: white;
+  color: black;
+  font-family: Arial, sans-serif;
+}
+
+#app {
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 80%;
+  margin: 20px 0;
+}
+
+#weatherList {
+  margin-top: 20px;
+}
+
+.weather-item {
+  padding: 15px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.weather-item h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
